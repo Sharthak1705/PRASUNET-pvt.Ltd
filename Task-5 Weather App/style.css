@@ -1,0 +1,338 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .main-img{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 0;
+  }
+  .container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: orange;
+    background-image: url("bg.png");
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .p {
+    padding: 10px;
+  }
+  
+  .box-1,
+  .box-2 {
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+    color: black;
+    border-radius: 40px;
+    filter: drop-shadow(20px 20px 20px black);
+  }
+  
+  .sec {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(0px 4px 4px black);
+  }
+  
+  .enter {
+    width: 60%;
+    /* font-size: 20px; */
+    /* margin: 20px; */
+    border: 1px solid white;
+    border-radius: 25px 0px 0px 25px;
+    padding: 10px;
+    /* filter: drop-shadow(0 0 5px black); */
+  }
+  
+  .main {
+    font-size: 25px;
+    line-height: 25px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .submit {
+    /* font-size: 20px; */
+    background-color: orange;
+    color: white;
+    font-weight: 800;
+    border: 1px solid orange;
+    border-radius: 0px 25px 25px 0px;
+    padding: 10px;
+    /* filter: drop-shadow(5px 0px 5px black); */
+  }
+  
+  .p-r {
+    margin-right: 10px;
+  }
+  
+  .date-change {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .date-input {
+    font-size: 30px;
+    width: 60px;
+  }
+  
+  .b {
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  p {
+    font-family: Impact;
+    padding: 0;
+    font-weight: 800;
+  }
+  #year {
+    font-size: 45px;
+    line-height: 45px;
+  }
+  
+  #date {
+    font-size: 100px;
+    line-height: 100px;
+  }
+  
+  #month {
+    font-size: 75px;
+    line-height: 75px;
+  }
+  
+  #day {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  
+  .temp {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .temp-1 {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #temp {
+    font-family: Impact;
+    font-size: 200px;
+    line-height: 200px;
+  }
+  
+  .t-real {
+    font-size: 100px;
+    margin-top: -100px;
+    font-family: Impact;
+  }
+  
+  #feel {
+    font-size: 60px;
+    color: white;
+  }
+  
+  .bg-blue {
+    width: 100%;
+    background-color: rgba(0, 200, 255, 0.5);
+  }
+  
+  .card-title {
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 35px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    /* filter: drop-shadow(0 0 5px black); */
+  }
+  
+  .hing {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -50px;
+  }
+  
+  .hing-2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -40px;
+    /* margin-bottom: 130px; */
+  }
+  
+  .rect {
+    width: 10px;
+    height: 40px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: white;
+    align-items: bottom;
+    filter: drop-shadow(2px 2px 0px black);
+  }
+  
+  .date {
+    height: 220px;
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .links {
+    font-size: 30px;
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 30px;
+  }
+  .fa:hover{
+    color: #306a92;
+  }
+  .fa {
+    color: white;
+  }
+  /* Add this at the end of your existing CSS */
+  
+  @media only screen and (max-width: 600px) {
+    .main-img {
+      width: 150px;
+      height: 150px;
+    }
+  
+    .container {
+      background-size: contain;
+      flex-direction: column;
+      
+    }
+  
+    .box-2 {
+      width: 80%;
+      height: 300px;
+    }
+    .box-1{
+    width: 80%;
+        height: 250px;
+    }
+  
+    .sec {
+      width: 100%;
+    }
+  
+    .enter{
+      width: 60%;
+      border-radius: 25px 0px 0px 25px;
+      margin-top: 10px;
+    }
+    .submit{
+    margin-top: 10px;
+        width: 20%;
+      border-radius: 0px 25px 25px 0px;
+    }
+  
+    .date-input {
+      font-size: 20px;
+      width: 40px;
+    }
+  
+    .b {
+      font-size: 20px;
+      width: 20px;
+      height: 20px;
+    }
+  
+    #temp {
+      font-size: 100px;
+      line-height: 100px;
+    }
+  
+    .t-real {
+      font-size: 50px;
+      margin-top: -50px;
+    }
+  
+    #feel {
+      font-size: 30px;
+    }
+  
+    .links {
+      font-size: 20px;
+      width: 40vw;
+      bottom: 10px;
+      padding: 5px;
+    }
+    .date {
+      height: auto; /* Adjust the height as needed */
+      display: flex;
+      margin-top: 10px;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-direction: row;
+      width: 90%;
+    }
+    .hallow:after{
+        content:" -";
+    }
+  
+    #year {
+      font-size: 25px; /* Adjust the font size as needed */
+      line-height: 25px;
+      font-family: Impact;
+      font-weight: 800;
+    }
+  
+    #date {
+      font-size: 25px; /* Adjust the font size as needed */
+      line-height: 50px;
+      font-family: Impact;
+      font-weight: 800;
+    }
+  
+    #month {
+      font-size: 25px; /* Adjust the font size as needed */
+      line-height: 37.5px;
+      font-family: Impact;
+      font-weight: 800;
+    }
+  
+    #day {
+      font-size: 25px; /* Adjust the font size as needed */
+      line-height: 15px;
+      font-family: Impact;
+      font-weight: 800;
+  }
+  #day:after{
+      content:"";
+  }
+  .hing-2{
+      margin-top: -70px
+  }
+  }
+  

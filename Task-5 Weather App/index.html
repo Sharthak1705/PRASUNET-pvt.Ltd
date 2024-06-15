@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Weather App</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+     <body>
+
+<div class="container">
+  <img src="main.png" class="main-img">
+  <div class="box-1">
+    <div class="hing">
+      <div class='rect'></div>
+      <div class='rect'></div>
+      <div class='rect'></div>
+      <div class='rect'></div>
+      <div class='rect'></div>
+      <div class='rect'></div>
+    </div>
+    <h1 class="main p">Date Part</h1>
+
+    <div class="sec p"><input type="input" placeholder="Enter your city name..." class="enter" id="city-name" required><button class="submit" type="button" onclick="cityNameChange()">Submit</button></div>
+
+    <div class="date p">
+      <p id="year" class="hallow"></p>
+      <p id="date" class="hallow"></p>
+      <p id="month" class="hallow"></p>
+      <p id="day" class="hallow"></p>
+    </div>
+
+    
+  </div>
+  <div class="box-2">
+    <div class="hing-2">
+      <div class='rect'></div>
+      <div class='rect'></div>
+      <div class='rect'></div>
+      <div class='rect'></div>
+      <div class='rect'></div>
+      <div class='rect'></div>
+    </div>
+    <div class="card-title">
+      <h2 class="title" id="name"></h2>
+    </div>
+    <div class="temp">
+      <h1 id="temp"></h1><span class="t-real">°c</span>
+    </div>
+    <div class="temp-1 bg-blue">
+      <h3 id="feel"></h3>
+    </div>
+  </div>
+  <div class="links bg-primary container-fluid">
+      <a href="https://www.linkedin.com/in/sharthak-jain-b03442225/" target="blank"><i class="fa fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/j.sharthak/?hl=en" target="blank"><i class="fa fa-instagram"></i></a>
+      <a href="https://mail.google.com/mail/u/0/#inbox" target="blank"><i class="fa fa-google"></i></a>
+      <a href="https://github.com/Sharthak1705" target="blank"><i class="fa fa-github"></i></a>
+      <script src="script.js"></script> 
+    </div>
+</div>
+</body>
+</html>
